@@ -12,4 +12,6 @@ let guestList: Array<String> = [
 
 // Loop for each to print invitation
 
-guestList.forEach
+guestList.forEach((guestName) => {
+    console.log(`Dear ${guestName}, you are invited to dinner please join us.`)
+})
